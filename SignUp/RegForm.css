@@ -1,0 +1,39 @@
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 600px;
+    height: 620px;
+    margin: auto;
+    background-color: #CBD4E3;
+    border-radius: 3px;
+    font-size: large;
+}
+
+.head {
+    margin-left: 10px;
+}
+
+form {
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+input[type="submit"] {
+    font-size: large;
+    background-color: green;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+
+td.label {
+    text-align: right;
+}
+
+.label {
+    margin: 20px;
+}
