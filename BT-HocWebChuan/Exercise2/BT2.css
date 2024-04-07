@@ -1,0 +1,44 @@
+.container {
+    background-image: url('/pexels-astrolonium-20141199.jpg');
+    /* Thay 'your-image-url.jpg' bằng đường dẫn đến hình ảnh của bạn */
+    background-size: cover;
+    /* Đảm bảo hình ảnh nền trải đều trên toàn bộ phần tử body */
+    background-repeat: no-repeat;
+    /* Ngăn hình ảnh nền lặp lại */
+}
+
+.container {
+    text-align: center;
+    color: aliceblue;
+    padding: 80px 0 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+.button {
+    margin: auto;
+    padding: 10px;
+    background-color: orangered;
+    width: 250px;
+    line-height: 10px;
+    transition-duration: 500ms;
+}
+
+.container .button a {
+    text-decoration: none;
+    color: aliceblue;
+    /* transition-duration: 500ms; */
+}
+
+.button:hover{
+    background-color: blue;
+}
