@@ -1,6 +1,6 @@
 .container {
     background-image: url('/pexels-astrolonium-20141199.jpg');
-    /* Thay 'your-image-url.jpg' bằng đường dẫn đến hình ảnh của bạn */
+    /* Thay bằng đường dẫn đến hình ảnh của bạn */
     background-size: cover;
     /* Đảm bảo hình ảnh nền trải đều trên toàn bộ phần tử body */
     background-repeat: no-repeat;
