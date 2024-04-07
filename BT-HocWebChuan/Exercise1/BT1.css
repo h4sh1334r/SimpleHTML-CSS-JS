@@ -56,10 +56,6 @@ body {
     line-height: 56px;
     min-width: 170px;
     text-decoration: none;
-    transition: 0.3s background-color;
 }
 
-.footer li a:hover {
-    background-color: #00aeef;
-}
 
