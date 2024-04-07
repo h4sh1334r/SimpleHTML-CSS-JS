@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="BT3.css">
+    <script>
+        function submitForm() {
+            var email = document.getElementsByName("email")[0].value;
+
+            var emailCheck = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            if (!email.match(emailCheck)) {
+                alert("Email invalid!");
+                return;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form action="#" onsubmit="submitForm(); return false;">
+        <div class="container">
+            <p class="icon">
+                <i class="bi bi-envelope"></i>
+            </p>
+
+            <h1>Get the invite</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur omnis qui veniam maiores quibusdam
+                recusandae commodi similique ab modi repudiandae. Eligendi, ratione. Enim, quam velit laboriosam
+                molestiae
+                quae
+                eveniet error?</p>
+
+            <p class="email"><input type="text" name="email" placeholder="Enter email"></input></p>
+
+            <p class="button"><button type="submit">Request invite</p>
+        </div>
+    </form>
+</body>
+
+</html>
